@@ -1,0 +1,240 @@
+/* 
+
+
+
+.besction {
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.picrow1 {
+    display: block;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #212121;
+    text-align: center;
+    
+    
+}
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+/* .header {
+    justify-content: space-between;
+} */
+.logoup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    /* color: #000000;  */
+     /* #2196F3 */
+     /* display: inline;
+     margin: 0px;
+     padding: 0px;
+     list-style-type: none; */
+     letter-spacing: 0.03rem;
+}
+.logoup:hover {
+    color: #2196F3;
+}
+
+.logoup1 {
+    color: #2196F3;
+}
+.logoup2 {
+    color: #000000;
+}
+.logoup3 {
+    color: #ffffff;
+}
+/* .logodn {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF; 
+
+}
+.logodn:hover {
+    color: #2196F3;
+} */
+
+.nolinkup1 {
+    text-decoration: none;
+    color: #212121;
+}
+.nolinkup2 {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+}
+.nolinkup1:hover {
+    color: #2196F3;
+}
+.nolinkup2:hover {
+    color: #2196F3;
+}
+.nolink {
+    text-decoration: none;
+    color: #ffffff;
+}
+.nolinke {
+    color: #FFFFFF;
+}
+
+.nolink:hover {
+    color: #2196F3;
+}
+
+.nolinke:hover {
+    color: #2196F3;
+}
+.addres {
+    color: #FFFFFF;
+}
+/* .rheader {
+    text-align: right;
+    
+   
+}
+.lheader {
+    text-align: left;
+} */
+
+main {
+    background-color: #E5E5E5;
+}
+/* .mainstart {
+    flex-direction: main-start;
+    justify-content: flex-start;
+}
+.mainend {
+    flex-direction: main-end;
+    justify-content: flex-end;
+} */
+footer {
+    background-color: #2F303A;
+    text-align: left;
+}
+.foot {
+    display: block;
+    line-height: 2;
+}
+
+p {
+    color: #757575;
+}
+
+section.title {
+    background-color: #2F303A;
+    /* width: 1600px; */
+    height: 600px;
+    /* display:block; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* text-align: center; */
+    /* object-position:initial; */
+    /* align-content: center; */
+    
+}
+button {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    padding: 12px;
+    border-radius: 4px;  
+    border: none;
+    font-weight: 600;
+    /* justify-content: center; */
+    letter-spacing: 0.03em;
+    /* align-content: center; */
+}
+.title button {
+    font-size: 16px;
+    font-weight: 900;
+}
+.bsection button {
+    font-size: 16px;
+    font-weight: 500;
+}
+button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+figure {
+    background-color:#ffffff ;
+}
+/* img {
+    background-color: #eeeeee;
+} */
+ul {
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+.wrap {
+    flex-wrap: wrap;
+    text-align: left;
+   background-color: #eeeeee;
+}
+/* .wrap figcaption {
+    
+} */
+.wrap strong {
+    font-size: 18px;
+    margin-left: 30px;
+}
+.wrap p {
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+section.lorem {
+    
+    text-align: left;
+}
+.lorem p {font-size: 24px;}
+
+.teamlist {
+    background-color: #F5F4FA;
+}
+/* .teamlist img {
+    background-color: ;
+} */
+.teamlist h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.teamlist p {
+    font-size: 16px;
+    font-weight: 400;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    line-height: 1.5;
+    font-size: 60px;
+    font-weight: 900;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.none {
+    display: none;
+}
+
+h3 {
+    font-size: 24px;
+}
