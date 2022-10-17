@@ -44,15 +44,19 @@ body {
 .nolinkup1 {
     text-decoration: none;
     color: #212121;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.875px;
+    /* line-height: 16px; */
     letter-spacing: 0.02em;
 }
 .nolinkup2 {
     text-decoration: none;
     color: #757575;
+    font-size: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.875;
+    /* line-height: 16px; */
     letter-spacing: 0.02em;
 }
 .nolinkup1:hover {
@@ -75,22 +79,26 @@ body {
 }
 .nolink {
     text-decoration: none;
-    color: #ffffff;
+    color: #757575;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.583;
+    /* line-height: 24px; */
     letter-spacing: 0.03em;
 }
 .nolinke {
-    color: #FFFFFF;
+    color: #757575;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.583;
+    /* line-height: 24px; */
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .addres {
     color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0.583;
+    /* line-height: 24px; */
     letter-spacing: 0.03em;
 }
 
@@ -104,8 +112,9 @@ body {
 .title h1 {
     text-transform: uppercase;
     letter-spacing: 0.25rem;
-    line-height: 1.5;
+    /* line-height: 60px; */
     font-size: 44px;
+    line-height: 0.73;
     color: #FFFFFF;
     /* padding: 60px; */
 }
@@ -126,7 +135,8 @@ body {
 }
 .lorem h3 {
     font-size:14px;
-    line-height: 16.41px;
+    line-height: 0.875;
+    /* line-height: 16px; */
     letter-spacing: 0.03em;
 }
 .lorem ul {
@@ -163,7 +173,8 @@ body {
 }
 .teamlist h2 {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 0.857;
+    /* line-height: 42px; */
     letter-spacing: 0.03em;
 }
 .teamlist ul {
@@ -183,13 +194,16 @@ body {
 }
 .teamlist h3 {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.842;
+    /* line-height: 19px; */
     letter-spacing: 0.03em;
 }
 .teamlist p {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.842;
+    /* line-height: 19px; */
     letter-spacing: 0.03em;
+    color:#757575;
 }
 
 /* PORTFOLIO */
@@ -209,7 +223,8 @@ body {
     letter-spacing: 0.03em;
     font-family: inherit;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 0.615;
+    /* line-height: 26px; */
 }
 .bsection button:hover {
     background-color: #2196F3;
@@ -233,14 +248,16 @@ body {
 .wrap h3 {
     margin-left: 30px;
     font-size: 18px;
-    line-height: 36px;
+    /* line-height: 36px; */
+    line-height: 0.5;
     letter-spacing: 0.06em;
 }
 .wrap p {
     margin-left: 30px;
     color: #757575;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 0.533;
+    /* line-height: 30px; */
     letter-spacing: 0.03em;
 }
 
